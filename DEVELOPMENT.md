@@ -7,7 +7,7 @@ We use [black](https://pypi.org/project/black/) to format all our code.  Before 
 
 ```python setup.py format```
 
-## Installation
+## Installation & dev environment
 
 1. Clone the repo
 2. Update all the submodules (to get the protobuf definitions): 
@@ -27,6 +27,10 @@ We use [black](https://pypi.org/project/black/) to format all our code.  Before 
 6. (optional) Install sphinx documentation generation dependencies
 
     ```cd docs && pip install -r requirements.txt```
+
+7. Install the git pre-commit hooks.  This project uses the python package [pre-commit](https://pre-commit.com/) to mange the git pre-commit logic and the [black](https://pypi.org/project/black/) auto code formatter.
+
+    ```pre-commit install```
 
 
  ## Release process
