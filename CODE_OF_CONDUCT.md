@@ -46,7 +46,7 @@ Physical contact and simulated physical contact (eg, textual descriptions like �
 
 ## Reporting Issues
 
-- If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via **EMAIL NEEDED**. All reports will be handled with discretion. In your report please include:
+- If you experience or witness unacceptable behavior—or have any other concerns—please report it by contacting us via info@whylabs.ai. All reports will be handled with discretion. In your report please include:
 
 	Your contact information.
 
