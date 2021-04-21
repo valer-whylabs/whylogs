@@ -15,7 +15,6 @@ from smart_open import open
 from whylogs.app.output_formats import OutputFormat
 from whylogs.core import DatasetProfile
 
-from .utils import async_wrap
 from ..core.datasetprofile import (
     flatten_dataset_frequent_numbers,
     flatten_dataset_frequent_strings,
@@ -25,6 +24,7 @@ from ..core.datasetprofile import (
 from ..util import time
 from ..util.protobuf import message_to_json
 from .config import WriterConfig
+from .utils import async_wrap
 
 DEFAULT_PATH_TEMPLATE = "$name/$session_id"
 DEFAULT_FILENAME_TEMPLATE = "dataset_profile"
